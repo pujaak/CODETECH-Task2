@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast Web App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="search-box">
+          <input
+            type="text"
+            placeholder="Enter your location"
+            class="input-box"
+          />
+
+          <button id="searchBtn"><ion-icon name="search-outline"></ion-icon></button>
+        </div>
+      </div>
+
+      <!-- location not found -->
+      <div class="location-not-found">
+        <h1>Sorry, Location not found!!!</h1>
+        <img src="/assets/404.png" alt="404 Error" />
+      </div>
+
+      <!-- weather body -->
+      <div class="weather-body">
+        <img src="./assets/cloud.png" alt="Weather Image" class="weather-img" />
+
+        <div class="weather-box">
+          <p class="temperature">0 <sup>°C</sup></p>
+          <p class="description">Light Rain</p>
+        </div>
+        <div class="weather-details">
+          <div class="humidity">
+            <ion-icon name="water"></ion-icon>
+            <div class="text">
+              <span id="humidity">45%</span>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="wind">
+            <ion-icon name="leaf"></ion-icon>
+            <div class="text">
+              <span id="wind-speed">12Km/H</span>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
