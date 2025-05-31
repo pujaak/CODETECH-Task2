@@ -1,6 +1,6 @@
 Name: PUJA KUMARI
 Company: CODTECH IT SOLUTIONS 
-ID: CT08DS1457 Domain: Web Development 
+Domain: Web Development 
 Duration: 1st June 2024 to 30th June 2024 
 Mentor: G.SRAVANI
 
